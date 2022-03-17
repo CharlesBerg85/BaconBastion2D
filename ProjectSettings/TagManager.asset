@@ -11,12 +11,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
   - Ground
   - Climbing
   - Player
   - World Confiner
+  - Enemy
+  - 
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Climbing
     uniqueID: 1186719259
+    locked: 0
+  - name: Enemy
+    uniqueID: 625046033
     locked: 0
   - name: Player
     uniqueID: 1196325321
