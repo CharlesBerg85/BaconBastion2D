@@ -62990,7 +62990,7 @@ GameObject:
   - component: {fileID: 500058106}
   - component: {fileID: 500058105}
   - component: {fileID: 500058104}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68606,7 +68606,7 @@ GameObject:
   - component: {fileID: 1071008724}
   - component: {fileID: 1071008726}
   - component: {fileID: 1071008725}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85837,6 +85837,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2523730053683138068, guid: cb3a0f6caeba93b4aa336bc01551a60e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.68000036
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523730053683138068, guid: cb3a0f6caeba93b4aa336bc01551a60e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.36999977
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523730053683138283, guid: cb3a0f6caeba93b4aa336bc01551a60e, type: 3}
+      propertyPath: orthographic size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2523730053700651097, guid: cb3a0f6caeba93b4aa336bc01551a60e, type: 3}
       propertyPath: m_Name
       value: Cameras
