@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 654659033150052226}
   - component: {fileID: 4099081368789070792}
   - component: {fileID: 6605969312869025319}
-  - component: {fileID: 6265489356561166277}
   - component: {fileID: 8087313612337755686}
   - component: {fileID: 2411518281973845886}
   m_Layer: 12
@@ -73,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 272127579
-  m_SortingLayer: 5
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -4658123360840285283, guid: fba284fad49834b448160a25fecb1e32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -105,18 +104,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6265489356561166277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1893129231622741723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0518f683c78df4e4d9bd9ef1e188c505, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &8087313612337755686
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -155,3 +142,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0518f683c78df4e4d9bd9ef1e188c505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  diamondPickupsSFX: {fileID: 8300000, guid: 15f167fdf52640849b8374091689f287, type: 3}

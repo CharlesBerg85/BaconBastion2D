@@ -37638,7 +37638,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Diamond
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6265489356561166277, guid: 0ded9cb9bbd4cfc44b58ba13722165ed, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0ded9cb9bbd4cfc44b58ba13722165ed, type: 3}
 --- !u!1001 &7713755297428865655
 PrefabInstance:

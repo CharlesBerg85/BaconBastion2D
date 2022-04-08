@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5144645045394522003}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 13.75, y: -10.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -142,3 +142,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c7ac132a1463de4a823389159ebbc95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  heartPickupsSFX: {fileID: 8300000, guid: c4707109e1de26746bd140086fb3d9ac, type: 3}
