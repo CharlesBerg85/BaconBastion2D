@@ -8,6 +8,7 @@ public class HeartPickUp : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         AudioSource.PlayClipAtPoint(heartPickupsSFX, Camera.main.transform.position);
+        FindObjectOfType<GameSession>().AddToLives();
         Destroy(gameObject);
     }
 }
