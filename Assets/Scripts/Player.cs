@@ -29,6 +29,8 @@ public class Player : MonoBehaviour
         myPlayersFeet = GetComponent<PolygonCollider2D>();
 
         startingGravityScale = myRigidbody2D.gravityScale;
+
+        myAnimator.SetTrigger("Appearing");
        
     }
 
@@ -57,11 +59,20 @@ public class Player : MonoBehaviour
 
         if (CrossPlatformInputManager.GetButtonDown("Vertical"))
         {
-            FindObjectOfType<ExitDoor>().StartLoadingNextLevel();
-
+            myAnimator.SetTrigger("Disappearing");
         }
     }
 
+    public void LoadNextLevel()
+    {
+        FindObjectOfType<ExitDoor>().StartLoadingNextLevel();
+        TurnOffRenderer();
+    }
+
+    public void TurnOffRenderer()
+    {
+        GetComponent<SpriteRenderer>().enabled = false;
+    }
     public void PlayerHit()
     {
         myRigidbody2D.velocity = hitKick * new Vector2(-transform.localScale.x, 1f);
