@@ -87,7 +87,7 @@ public class Player : MonoBehaviour
 
     IEnumerator StopHurting()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(.5f);
         isHurting = false;
     }
 
