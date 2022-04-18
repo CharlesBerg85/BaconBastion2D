@@ -6,7 +6,9 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] float enemyRunSpeed = 5f;
+    [SerializeField] AudioClip enemyDyingSFX;
 
+    AudioSource myAudioSource;
     Animator enemyAnimator;
     Rigidbody2D enemyRigidBody;
     // Start is called before the first frame update
@@ -14,6 +16,7 @@ public class Enemy : MonoBehaviour
     {
         enemyRigidBody = GetComponent<Rigidbody2D>();
         enemyAnimator = GetComponent<Animator>();
+        myAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,6 +27,7 @@ public class Enemy : MonoBehaviour
 
     public void Dying()
     {
+        myAudioSource.PlayOneShot(enemyDyingSFX);
         enemyAnimator.SetTrigger("Die");
         GetComponent<CapsuleCollider2D>().enabled = false;
         GetComponent<BoxCollider2D>().enabled = false;

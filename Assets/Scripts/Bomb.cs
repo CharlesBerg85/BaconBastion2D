@@ -6,8 +6,10 @@ public class Bomb : MonoBehaviour
 {
     [SerializeField] float radius = 3f;
     [SerializeField] Vector2 explosionForce = new Vector2(2000f, 100f);
+    [SerializeField] AudioClip BombBurningSFX, BombExplosionSFX;
 
     Animator myAnimator;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +30,8 @@ public class Bomb : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        myAnimator.SetTrigger("Burn");  
+        myAnimator.SetTrigger("Burn");
+        
     }
 
     private void DestroyBomb()
@@ -40,4 +43,15 @@ public class Bomb : MonoBehaviour
     {
         Gizmos.DrawWireSphere(transform.position, radius);
     }
+
+    void PlayBurningBombSXF()
+    {
+        AudioSource.PlayClipAtPoint(BombBurningSFX, Camera.main.transform.position);
+    }
+
+    void PlayBombExplodingSFX()
+    {
+        AudioSource.PlayClipAtPoint(BombExplosionSFX, Camera.main.transform.position);
+    }
 }
+

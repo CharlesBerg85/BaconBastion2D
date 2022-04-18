@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] float attackRadius = 3f;
     [SerializeField] Vector2 hitKick = new Vector2(50f, 50f);
     [SerializeField] Transform hurtBox;
-    [SerializeField] AudioClip jumpingSFX, attackingSFX; 
+    [SerializeField] AudioClip jumpingSFX, attackingSFX, gettingHitSFX; 
 
     Rigidbody2D myRigidbody2D;
     Animator myAnimator;
@@ -81,7 +81,10 @@ public class Player : MonoBehaviour
         myRigidbody2D.velocity = hitKick * new Vector2(-transform.localScale.x, 1f);
 
         myAnimator.SetTrigger("Hitting");
+        myAudioSource.PlayOneShot(gettingHitSFX);
         isHurting = true;
+        
+        
 
         FindObjectOfType<GameSession>().ProcessPlayerDeath();
 
