@@ -175,7 +175,8 @@ MonoBehaviour:
   hurtBox: {fileID: 6059193788148729029}
   jumpingSFX: {fileID: 8300000, guid: 901c62d215d2fea41b77e7717c028e3f, type: 3}
   attackingSFX: {fileID: 8300000, guid: c400d1d6efe7e614f9151ccfce70b506, type: 3}
-  gettingHitSXF: {fileID: 8300000, guid: bfed7dbec118023448523d42639ae8c4, type: 3}
+  gettingHitSFX: {fileID: 8300000, guid: bfed7dbec118023448523d42639ae8c4, type: 3}
+  walkingSFX: {fileID: 8300000, guid: 214ed90b0e3ab9e40b8ab495b96b0ed4, type: 3}
 --- !u!60 &1953195872
 PolygonCollider2D:
   m_ObjectHideFlags: 0

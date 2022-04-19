@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] float attackRadius = 3f;
     [SerializeField] Vector2 hitKick = new Vector2(50f, 50f);
     [SerializeField] Transform hurtBox;
-    [SerializeField] AudioClip jumpingSFX, attackingSFX, gettingHitSFX; 
+    [SerializeField] AudioClip jumpingSFX, attackingSFX, gettingHitSFX, walkingSFX; 
 
     Rigidbody2D myRigidbody2D;
     Animator myAnimator;
@@ -143,11 +143,27 @@ public class Player : MonoBehaviour
 
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed, myRigidbody2D.velocity.y);
         myRigidbody2D.velocity = playerVelocity;
-
         FlipSprite();
 
         ChangingToRunningState();
 
+    }
+
+    public void StepsSFX()
+    {
+        bool playerMovingHorizontaly = Mathf.Abs(myRigidbody2D.velocity.x) > Mathf.Epsilon;
+
+        if(playerMovingHorizontaly)
+        {
+            if(myBoxCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            {
+                myAudioSource.PlayOneShot(walkingSFX);
+            }
+            else
+            {
+                myAudioSource.Stop();
+            }
+        }
     }
 
     private void ChangingToRunningState()
