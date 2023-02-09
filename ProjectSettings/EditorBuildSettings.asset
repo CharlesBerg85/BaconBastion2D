@@ -12,8 +12,32 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 80212a718a5889041a98b707807286a3
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: a40b4cf3d3a5e7c4c9d948a4ea633cb8
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: f0a59ebced26a38438428e0d41fdf060
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: 2b01d27fc90d0054291a67b7860c2919
+  - enabled: 1
+    path: Assets/Scenes/Level 6.unity
+    guid: f0f95cf2dfabf1a4aab05a2126bb074f
+  - enabled: 1
+    path: Assets/Scenes/Level 7.unity
+    guid: 2d0ee5a1725ebbf49ae975af30701f21
+  - enabled: 1
+    path: Assets/Scenes/Level 8.unity
+    guid: 2d0d83ea3b0a8cf4e9bfda1f728a6c26
+  - enabled: 1
     path: Assets/Scenes/Level 9.unity
     guid: a7227cdb913ad40489a797717f968155
+  - enabled: 1
+    path: Assets/Scenes/Level 10 Boss Fight.unity
+    guid: 4b3a2cd751a0e4e4d9af8b62d67a50b5
   - enabled: 1
     path: Assets/Scenes/Success Level.unity
     guid: efe823f88cb5e744db03e54f1d7c17d9
