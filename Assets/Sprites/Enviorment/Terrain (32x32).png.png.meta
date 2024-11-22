@@ -285,7 +285,7 @@ TextureImporter:
       213: -3812790654372133636
     second: Terrain (32x32).png_93
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -302,10 +302,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -344,6 +346,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -355,6 +359,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -367,6 +372,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2356,9 +2375,103 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Terrain (32x32).png_0: -5542247853877647267
+      Terrain (32x32).png_1: 8122724857127247109
+      Terrain (32x32).png_10: -7233470538263826592
+      Terrain (32x32).png_11: 4382319640792512507
+      Terrain (32x32).png_12: 4712917561530458772
+      Terrain (32x32).png_13: -2736291532236006883
+      Terrain (32x32).png_14: -6098386362543189798
+      Terrain (32x32).png_15: 3563705712984512321
+      Terrain (32x32).png_16: -500487869344274933
+      Terrain (32x32).png_17: -2609211716829656296
+      Terrain (32x32).png_18: 635191767051774120
+      Terrain (32x32).png_19: -1258787863614860135
+      Terrain (32x32).png_2: 8435014291351393998
+      Terrain (32x32).png_20: 8540059967521037426
+      Terrain (32x32).png_21: -645865733268486468
+      Terrain (32x32).png_22: 6907425272168387159
+      Terrain (32x32).png_23: 1989377790921986691
+      Terrain (32x32).png_24: -2886377643051836603
+      Terrain (32x32).png_25: 8283967681400822417
+      Terrain (32x32).png_26: -2998204000292861484
+      Terrain (32x32).png_27: 1998386442270495253
+      Terrain (32x32).png_28: -3508461550009570392
+      Terrain (32x32).png_29: -7844619879921486680
+      Terrain (32x32).png_3: 1346750343083268240
+      Terrain (32x32).png_30: 6719799541413554393
+      Terrain (32x32).png_31: 8062440861081574413
+      Terrain (32x32).png_32: -687341645768117184
+      Terrain (32x32).png_33: -5511676888198920520
+      Terrain (32x32).png_34: 6782414790242881818
+      Terrain (32x32).png_35: -631107497194791494
+      Terrain (32x32).png_36: -3525270661078209273
+      Terrain (32x32).png_37: 5767205427634071563
+      Terrain (32x32).png_38: -1205559926547503184
+      Terrain (32x32).png_39: 3241676063093062053
+      Terrain (32x32).png_4: -4734808245876664187
+      Terrain (32x32).png_40: 2519039435404749361
+      Terrain (32x32).png_41: 5138685737130246094
+      Terrain (32x32).png_42: 5390510084800248850
+      Terrain (32x32).png_43: 2775587527552060349
+      Terrain (32x32).png_44: -6248167354374981548
+      Terrain (32x32).png_45: 151724965077134339
+      Terrain (32x32).png_46: 6442493224622529315
+      Terrain (32x32).png_47: 4770001950784054300
+      Terrain (32x32).png_48: 5776906432751700292
+      Terrain (32x32).png_49: 3402437852533215584
+      Terrain (32x32).png_5: 6448732244318572168
+      Terrain (32x32).png_50: 7127790797142206736
+      Terrain (32x32).png_51: -3265472058171436061
+      Terrain (32x32).png_52: -2893310990014453117
+      Terrain (32x32).png_53: -3117541673654778129
+      Terrain (32x32).png_54: -2413226018689227019
+      Terrain (32x32).png_55: -6226963388116853679
+      Terrain (32x32).png_56: 2385461792559887658
+      Terrain (32x32).png_57: 6342136357636488473
+      Terrain (32x32).png_58: -5043634056933564920
+      Terrain (32x32).png_59: -8159413566159903266
+      Terrain (32x32).png_6: -3346230465991158027
+      Terrain (32x32).png_60: -4039213768947180950
+      Terrain (32x32).png_61: 7687546028835706050
+      Terrain (32x32).png_62: 1411155310310891456
+      Terrain (32x32).png_63: -8124100467665504006
+      Terrain (32x32).png_64: 7958768130111050618
+      Terrain (32x32).png_65: 959387476283871764
+      Terrain (32x32).png_66: -745088120360904065
+      Terrain (32x32).png_67: -6566253857523828417
+      Terrain (32x32).png_68: 50601222388037649
+      Terrain (32x32).png_69: -3168246931207437831
+      Terrain (32x32).png_7: -6599611678594071656
+      Terrain (32x32).png_70: 2656471812947203918
+      Terrain (32x32).png_71: 3617044042641416257
+      Terrain (32x32).png_72: 8158801394149314018
+      Terrain (32x32).png_73: -4600827988793508342
+      Terrain (32x32).png_74: 243046230903321461
+      Terrain (32x32).png_75: 662014349097239801
+      Terrain (32x32).png_76: -629482774319262963
+      Terrain (32x32).png_77: -1930852385962004349
+      Terrain (32x32).png_78: -4117984128258280042
+      Terrain (32x32).png_79: -5767535942909441469
+      Terrain (32x32).png_8: -9151751410785686138
+      Terrain (32x32).png_80: 2891556352328220301
+      Terrain (32x32).png_81: -2686281090226605112
+      Terrain (32x32).png_82: 8338895794228049066
+      Terrain (32x32).png_83: -276889593333956661
+      Terrain (32x32).png_84: -5477265648096519644
+      Terrain (32x32).png_85: 3131116721319541311
+      Terrain (32x32).png_86: -7018473925206262599
+      Terrain (32x32).png_87: -8212319245985859180
+      Terrain (32x32).png_88: -777048761532233126
+      Terrain (32x32).png_89: -8412789694392210804
+      Terrain (32x32).png_9: 7123466765039655317
+      Terrain (32x32).png_90: 211467686539141981
+      Terrain (32x32).png_91: 8530686332094396100
+      Terrain (32x32).png_92: 4936197924268567497
+      Terrain (32x32).png_93: -3812790654372133636
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

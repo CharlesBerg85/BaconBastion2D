@@ -63,7 +63,7 @@ TextureImporter:
       213: 8139833067377633788
     second: Decorations (32x32).png_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -80,10 +80,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,6 +124,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -133,6 +137,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -145,6 +150,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -593,9 +612,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Decorations (32x32).png_0: -4463386869459444678
+      Decorations (32x32).png_1: 8902719769591933545
+      Decorations (32x32).png_10: -3800570572917290115
+      Decorations (32x32).png_11: -1943636352436559448
+      Decorations (32x32).png_12: 4343947408041299275
+      Decorations (32x32).png_13: 1888906344367125180
+      Decorations (32x32).png_14: -3580155670097902769
+      Decorations (32x32).png_15: -5429301901931698131
+      Decorations (32x32).png_16: -3114436957907972855
+      Decorations (32x32).png_17: -3044790995341536649
+      Decorations (32x32).png_18: -4221730120694652075
+      Decorations (32x32).png_19: 8139833067377633788
+      Decorations (32x32).png_2: 6859685372965853381
+      Decorations (32x32).png_3: 1872958873858117603
+      Decorations (32x32).png_4: -4044297755510832736
+      Decorations (32x32).png_5: 7332694984213401076
+      Decorations (32x32).png_6: 7190859456601438822
+      Decorations (32x32).png_7: 4020042175964492687
+      Decorations (32x32).png_8: 806381752336578067
+      Decorations (32x32).png_9: -7253213763938074453
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
